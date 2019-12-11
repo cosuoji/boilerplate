@@ -111,8 +111,14 @@ header .content-wrapper
 {
   display: flex;
   justify-content: center;
-  width: 100%;
   flex-flow: row wrap;
+  width:55%;
+  padding: 10px;
+  margin: 0;
+}
+
+header{
+  padding: 15px 0;
 }
 
 header nav
@@ -121,18 +127,34 @@ header nav
   align-items: center;
   justify-content: space-around;
   flex-flow: row wrap;
+  width: 60&;
+}
+
+.header-divider{
+  width: 100%;
 }
 
 header nav ul{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
+/**Footer ***/
 footer .social-icos {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .content-wrapper
+{
+  display: flex;
+  justify-content: center;
+  width: 55%;
+  flex-flow: row wrap;
+  margin: 50px 0;
 }
 
 footer .social
@@ -142,6 +164,11 @@ footer .social
   align-items: center;
 }
 
+footer p{
+  margin: 0;
+}
+
+/**Footer ***/
 .hero-area{
   display: flex;
   justify-content: center;
@@ -164,6 +191,20 @@ aside
   flex-flow: row wrap;
 }
 
+.features p
+{
+  margin: 0;
+}
+
+.features .article
+{
+  width: 60%;
+}
+
+.reviews h3
+{
+  width: 55%;
+}
 .features .features-items
 {
   display: flex;
